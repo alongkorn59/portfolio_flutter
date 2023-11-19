@@ -10,9 +10,9 @@ class StaticUtils {
   static const String hi = 'assets/hi.gif';
 
   // photos
-  static const String mobilePhoto = 'assets/photos/mobile.png';
+  // static const String mobilePhoto = 'assets/photos/mobile.png';
   static const String coloredPhoto = 'assets/photos/profile.jpg';
-  static const String blackWhitePhoto = 'assets/photos/black-white.png';
+  // static const String blackWhitePhoto = 'assets/photos/black-white.png';
   static const String famster = 'assets/photos/Famster.png';
 
   // work

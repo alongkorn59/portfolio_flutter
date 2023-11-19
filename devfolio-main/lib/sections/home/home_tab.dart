@@ -27,7 +27,7 @@ class HomeTab extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.blackWhitePhoto,
+                  StaticUtils.coloredPhoto,
                   height: size.width < 1200
                       ? size.height * 0.75
                       : size.height * 0.85,

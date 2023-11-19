@@ -36,7 +36,7 @@ class AboutTab extends StatelessWidget {
           ),
           Space.y1!,
           Image.asset(
-            StaticUtils.mobilePhoto,
+            StaticUtils.coloredPhoto,
             height: height * 0.27,
           ),
           SizedBox(
