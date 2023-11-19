@@ -36,7 +36,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 .map(
                   (e) => ProjectCard(
                     banner: e.value,
-                    projectIcon: ProjectUtils.icons[0],
+                    projectIcon: ProjectUtils.icons[e.key],
                     projectLink: ProjectUtils.links[e.key],
                     projectTitle: ProjectUtils.titles[e.key],
                     projectDescription: ProjectUtils.description[e.key],
@@ -45,17 +45,17 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
                 .toList(),
           ),
           Space.y2!,
-          SizedBox(
-            height: AppDimensions.normalize(14),
-            width: AppDimensions.normalize(50),
-            child: OutlinedButton(
-              onPressed: () => openURL(StaticUtils.gitHub),
-              child: Text(
-                'See More',
-                style: AppText.l1b,
-              ),
-            ),
-          )
+          // SizedBox(
+          //   height: AppDimensions.normalize(14),
+          //   width: AppDimensions.normalize(50),
+          //   child: OutlinedButton(
+          //     onPressed: () => openURL(StaticUtils.gitHub),
+          //     child: Text(
+          //       'See More',
+          //       style: AppText.l1b,
+          //     ),
+          //   ),
+          // )
         ],
       ),
     );

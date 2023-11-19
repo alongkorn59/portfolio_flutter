@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.hmz" "\0"
+            VALUE "CompanyName", "com.fam" "\0"
             VALUE "FileDescription", "devfolio" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "devfolio" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.hmz. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 com.fam. All rights reserved." "\0"
             VALUE "OriginalFilename", "devfolio.exe" "\0"
             VALUE "ProductName", "devfolio" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
