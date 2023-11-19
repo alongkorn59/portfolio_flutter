@@ -27,7 +27,7 @@ class HomeTab extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.coloredPhoto,
+                  StaticUtils.famster,
                   height: size.width < 1200
                       ? size.height * 0.75
                       : size.height * 0.85,
@@ -92,12 +92,22 @@ class HomeTab extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter Developer',
+                            ' Game Developer',
+                            speed: const Duration(milliseconds: 80),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
+                            ' Game Programer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' UI/UX Enthusiast',
+                            ' Unity Developer',
+                            speed: const Duration(milliseconds: 50),
+                            textStyle: AppText.b1,
+                          ),
+                          TyperAnimatedText(
+                            ' Flutter Developer',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

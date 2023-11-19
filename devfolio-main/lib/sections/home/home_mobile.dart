@@ -22,7 +22,7 @@ class HomeMobile extends StatelessWidget {
             child: Opacity(
               opacity: 0.9,
               child: Image.asset(
-                StaticUtils.coloredPhoto,
+                StaticUtils.famster,
                 height: AppDimensions.normalize(150),
               ),
             ),
@@ -77,12 +77,22 @@ class HomeMobile extends StatelessWidget {
                     AnimatedTextKit(
                       animatedTexts: [
                         TyperAnimatedText(
-                          ' Flutter Developer',
+                          ' Game Developer',
+                          speed: const Duration(milliseconds: 80),
+                          textStyle: AppText.b1,
+                        ),
+                        TyperAnimatedText(
+                          ' Game Programer',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
                         TyperAnimatedText(
-                          ' UI/UX Enthusiast',
+                          ' Unity Developer',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: AppText.b1,
+                        ),
+                        TyperAnimatedText(
+                          ' Flutter Developer',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
@@ -92,7 +102,6 @@ class HomeMobile extends StatelessWidget {
                           textStyle: AppText.b1,
                         ),
                       ],
-                      repeatForever: true,
                       isRepeatingAnimation: true,
                     ),
                   ],

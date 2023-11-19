@@ -43,17 +43,17 @@ class PortfolioMobileTab extends StatelessWidget {
           ),
         ),
         Space.y!,
-        SizedBox(
-          height: AppDimensions.normalize(14),
-          width: AppDimensions.normalize(50),
-          child: OutlinedButton(
-            onPressed: () => openURL(StaticUtils.gitHub),
-            child: Text(
-              'See More',
-              style: AppText.l1b,
-            ),
-          ),
-        )
+        // SizedBox(
+        //   height: AppDimensions.normalize(14),
+        //   width: AppDimensions.normalize(50),
+        //   child: OutlinedButton(
+        //     onPressed: () => openURL(StaticUtils.gitHub),
+        //     child: Text(
+        //       'See More',
+        //       style: AppText.l1b,
+        //     ),
+        //   ),
+        // )
       ],
     );
   }

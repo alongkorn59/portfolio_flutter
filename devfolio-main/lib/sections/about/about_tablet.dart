@@ -93,16 +93,16 @@ class AboutTab extends StatelessWidget {
           Space.y!,
           Row(
             children: [
-              Column(
+              const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   AboutMeData(
                     data: "Name",
                     information: "Alongkorn Suwanjun",
                   ),
                   AboutMeData(
                     data: "Age",
-                    information: "24",
+                    information: "29",
                   ),
                 ],
               ),
@@ -118,7 +118,7 @@ class AboutTab extends StatelessWidget {
                   ),
                   AboutMeData(
                     data: "From",
-                    information: "Attock, PK",
+                    information: "Bangkok, Thailand",
                   ),
                 ],
               ),
