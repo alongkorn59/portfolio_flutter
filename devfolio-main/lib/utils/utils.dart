@@ -17,7 +17,8 @@ class StaticUtils {
 
   // work
   static const String varisoft = 'assets/work/varisoft.png';
-  static const String pdl = 'assets/work/PDL.png';
+  static const String pdl = 'assets/work/SBG-Studio-Logo.jpg';
+  static const String dec = 'assets/work/DecMedia.jpg';
 
   // services
   static const String uiux = 'assets/services/ui.png';
@@ -44,7 +45,8 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+      'https://drive.google.com/file/d/1OhoUHYVt4xbtZc2zAUuQBLeT8nO3_WiT/view?usp=sharing';
+  // 'https://drive.google.com/file/d/1m3lZsHUvUccKcSzgKLYFgsBWTMjVe46Z/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/alongkorn59';
 }

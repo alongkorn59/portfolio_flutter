@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/utils/project_utils.dart';
+import 'package:folio/utils/project_game_utils.dart';
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/custom_text_heading.dart';
 import 'package:folio/widget/project_card.dart';
+
+import '../../utils/project_app_utils.dart';
 
 class PortfolioDesktop extends StatefulWidget {
   const PortfolioDesktop({Key? key}) : super(key: key);
@@ -21,41 +23,64 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nPortfolio",
+            text: "\nGame Portfolio",
           ),
           const CustomSectionSubHeading(
-            text: "Here are few samples of my previous work :)\n\n",
+            text: "Here are few samples of my previous work 🎮 🕹️\n\n",
           ),
           Wrap(
             alignment: WrapAlignment.center,
             crossAxisAlignment: WrapCrossAlignment.center,
             runSpacing: AppDimensions.normalize(10),
-            children: ProjectUtils.banners
+            children: ProjectGameUtils.banners
                 .asMap()
                 .entries
                 .map(
                   (e) => ProjectCard(
                     banner: e.value,
-                    projectIcon: ProjectUtils.icons[e.key],
-                    projectLink: ProjectUtils.links[e.key],
-                    projectTitle: ProjectUtils.titles[e.key],
-                    projectDescription: ProjectUtils.description[e.key],
+                    projectIcon: ProjectGameUtils.icons[e.key],
+                    projectLink: ProjectGameUtils.links[e.key],
+                    projectTitle: ProjectGameUtils.titles[e.key],
+                    projectDescription: ProjectGameUtils.description[e.key],
                   ),
                 )
                 .toList(),
           ),
           Space.y2!,
-          // SizedBox(
-          //   height: AppDimensions.normalize(14),
-          //   width: AppDimensions.normalize(50),
-          //   child: OutlinedButton(
-          //     onPressed: () => openURL(StaticUtils.gitHub),
-          //     child: Text(
-          //       'See More',
-          //       style: AppText.l1b,
-          //     ),
-          //   ),
-          // )
+
+          // ✅ กลุ่มที่ 2
+          Container(
+            padding: Space.h!,
+            child: Column(
+              children: [
+                const CustomSectionHeading(
+                  text: "\nApplication Portfolio",
+                ),
+                const CustomSectionSubHeading(
+                  text: "Innovation application for sale presentation 👨‍💻 🤖\n\n",
+                ),
+                Wrap(
+                  alignment: WrapAlignment.center,
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  runSpacing: AppDimensions.normalize(10),
+                  children: ProjectAppUtils.banners
+                      .asMap()
+                      .entries
+                      .map(
+                        (e) => ProjectCard(
+                          banner: e.value,
+                          projectIcon: ProjectAppUtils.icons[e.key],
+                          projectLink: ProjectAppUtils.links[e.key],
+                          projectTitle: ProjectAppUtils.titles[e.key],
+                          projectDescription:
+                              ProjectAppUtils.description[e.key],
+                        ),
+                      )
+                      .toList(),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );

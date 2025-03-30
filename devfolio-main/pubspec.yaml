@@ -1,3 +1,4 @@
+# ถ้าติดตั้ง flutter ใหม่ ให้ลง version 2.17.1 -------------------------------------------
 name: folio
 description: Live portfolio developed in flutter 3.0.
 
@@ -31,7 +32,7 @@ dependencies:
   url_launcher: ^6.1.2
   cupertino_icons: ^1.0.2
   carousel_slider: ^4.0.0
-  animated_text_kit: ^4.2.1
+  animated_text_kit: 4.2.1
   font_awesome_flutter: ^10.1.0
 
   # state management

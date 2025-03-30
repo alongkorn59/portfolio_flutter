@@ -69,12 +69,12 @@ IDI_APP_ICON            ICON                    "resources\\Icon-512.ico"
 #if defined(FLUTTER_VERSION)
 #define VERSION_AS_STRING FLUTTER_VERSION
 #else
-#define VERSION_AS_STRING "1.0.0"
+#define VERSION_AS_STRING "1.0.0.0"
 #endif
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION VERSION_AS_NUMBER
- PRODUCTVERSION VERSION_AS_NUMBER
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
 #ifdef _DEBUG
  FILEFLAGS VS_FF_DEBUG
@@ -91,12 +91,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "com.fam" "\0"
             VALUE "FileDescription", "devfolio" "\0"
-            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "FileVersion", "1.0.0.0" "\0"
             VALUE "InternalName", "devfolio" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.fam. All rights reserved." "\0"
             VALUE "OriginalFilename", "devfolio.exe" "\0"
             VALUE "ProductName", "devfolio" "\0"
-            VALUE "ProductVersion", VERSION_AS_STRING "\0"
+            VALUE "ProductVersion", "1.0.0.0" "\0"
         END
     END
     BLOCK "VarFileInfo"
