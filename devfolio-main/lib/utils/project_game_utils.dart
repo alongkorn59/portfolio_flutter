@@ -52,13 +52,13 @@ class ProjectGameUtils {
   ];
 
   static const List<String> links = [
-    "https://piratexpirate.io/",
-    "https://fansdungeon.com/",
+    "https://www.youtube.com/watch?v=E5eu9jMI_UA&ab_channel=GPlayer",//"https://piratexpirate.io/",
+    "https://www.youtube.com/watch?v=lYfaQo6mV6E&ab_channel=MeawStreamer",//"https://fansdungeon.com/",
     "https://www.youtube.com/watch?v=ijbLDmZb-PI&ab_channel=VarisoftStudio",
     "https://play.google.com/store/apps/details?id=com.varisoft.pakapow&hl=th&gl=US",
     "https://www.facebook.com/HappyWoollyFarm/",
-    "https://play.google.com/store/apps/details?id=com.varisoft.crazystealth&hl=th&gl=US",
-    "https://play.google.com/store/apps/details?id=com.kaspymobi&hl=th&gl=US",
+    "https://apkcombo.com/es/crazy-stealth/com.varisoft.crazystealth/",//"https://play.google.com/store/apps/details?id=com.varisoft.crazystealth&hl=th&gl=US",
+    "https://praew.com/news/news-pr/391080.html",//"https://play.google.com/store/apps/details?id=com.kaspymobi&hl=th&gl=US",
     "",
     "",
     "",
