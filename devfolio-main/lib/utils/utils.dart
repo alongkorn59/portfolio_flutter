@@ -45,7 +45,8 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1OhoUHYVt4xbtZc2zAUuQBLeT8nO3_WiT/view?usp=sharing';
+      'https://drive.google.com/file/d/1zhWObL3N8AURY-4W2EvpuFPSNA8kwUMJ/view?usp=sharing';
+  // 'https://drive.google.com/file/d/1OhoUHYVt4xbtZc2zAUuQBLeT8nO3_WiT/view?usp=sharing';
   // 'https://drive.google.com/file/d/1m3lZsHUvUccKcSzgKLYFgsBWTMjVe46Z/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/alongkorn59';

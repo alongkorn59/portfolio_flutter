@@ -20,8 +20,6 @@ class ProjectGameUtils {
     "assets/projects/unity.png",
     "assets/projects/unity.png",
     "assets/projects/unity.png",
-    "assets/projects/unity.png",
-    "assets/projects/unity.png",
     "assets/projects/flutter.png",
   ];
 
